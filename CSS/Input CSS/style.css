@@ -1,0 +1,11 @@
+*{color: blueviolet;background-color: bisque;}
+p{background-color: aquamarine;}
+#title-1{background-color: red;}
+.bg-yellow{background-color: yellow;}
+[id]{color: black;}
+[id],#title-1{border: 3px solid black ;}
+[href*="https://www.yahoo.com"]{background-color: yellow;}
+[class^=title]{border: 3px solid black}
+[href$=".com"]{color: black;}
+[class|=title]{color: blue;}
+[href|=127]{color: aqua;}
