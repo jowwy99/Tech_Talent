@@ -9,3 +9,4 @@ p{background-color: aquamarine;}
 [href$=".com"]{color: black;}
 [class|=title]{color: blue;}
 [href|=127]{color: aqua;}
+[href^=http]{border: 3px solid black}

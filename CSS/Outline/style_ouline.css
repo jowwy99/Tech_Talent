@@ -1,0 +1,36 @@
+ p{background-color: aqua;
+outline: red solid 10px;
+margin-left: 20px;
+width: 50%;
+height: 300px;
+border: solid 10px;
+outline-offset: 10px;
+border-style: dotted;
+outline-style: dotted;
+margin-top: 23px;
+cursor: pointer;
+}
+p:focus,p:active{ outline: none}
+
+div{background-color: green;
+    outline: pink solid 10px;
+    margin-left: 20px;
+    width: 50%;
+    height: 300px;
+    border: solid 10px;
+    outline-offset: 10px;
+    border-style: dotted;
+    outline-style: dotted;
+    margin-top: 23px;}
+
+div:hover{background-color: green;
+    outline: none
+}
+
+div{
+    background-color: red;
+}
+
+div:hover{
+    background-color: orange;
+}
