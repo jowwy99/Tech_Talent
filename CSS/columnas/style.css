@@ -1,0 +1,16 @@
+body{background-color: bisque;}
+h1{color: red;
+    display: inline}
+p{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: solid red 2px;}
+
+::selection {
+    background-color: rebeccapurple; 
+    color: #fff; 
+}
+
+h1:hover{
+    color: aqua;
+}
