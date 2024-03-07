@@ -1,59 +1,49 @@
-.box-1{
+.container{
     background-color: red;
-    border: solid 2px;
-    position: relative;
-    width: 250px;
     height: 250px;
-    margin-left: auto;
-    margin-right:auto ;
+    width: 250px;
+    border: solid 2px black;
+    position: absolute;
+    margin: 25px;
     
     
+}
 
+.box{
+    background-color: yellowgreen;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    border: solid 2px black;
+    position: absolute;
+    text-align: center;
+    
+}
+
+.box-1{
+    left: 20px;
+    right: 0px;
+    top: 20px;
 
 }
+
+
 .box-2{
-    background-color: greenyellow;
-    border: solid 2px;
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    text-align: center;
-    position: relative;
-    bottom: 260px;
-    left: 169px;
-
+    left: 271px;
+    right: 0px;
+    top: 22px;
 
 }
+
 .box-3{
-    background-color: greenyellow;
-    border: solid 2px;
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    text-align: center;
-    position: relative;
-    left: 415px;
-    bottom: 289px;
+    left: 20px;
+    right: 0px;
+    top: 269px;
 }
+
 .box-4{
-    background-color: greenyellow;
-    border: solid 2px;
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    text-align: center;
-    position: relative;
-    bottom: 70px;
-    left: 169px;
-}
-.box-5{
-    background-color: greenyellow;
-    border: solid 2px;
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    text-align: center;
-    position: relative;
-    left: 415px;
-    bottom: 100px;
+    left: 270px;
+    right: 0px;
+    top: 269px;
+    
 }
