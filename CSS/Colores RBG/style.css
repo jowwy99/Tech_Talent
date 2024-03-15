@@ -1,4 +1,4 @@
-h2, .container-1, .container-2{
+h2, .container-1, .container-2, .container-3{
     text-align: center;
 }
 
@@ -17,6 +17,7 @@ p{
     width: 100px;
     height: 100px;
     display: inline-block;
+    
 }
 
 .circle-red{
@@ -50,24 +51,25 @@ p{
     width: 200px;
     height: 200px;
     display: inline-block;
-    position:absolute
+    position: absolute;
+    mix-blend-mode: lighten;
 }
 
 .circle-1{
     left: 279px;
     top: 609px;
-    mix-blend-mode: saturation;
+    /* mix-blend-mode: saturation; */
 }
 
 .circle-3{
     left: 398px;
     top: 609px;
-    mix-blend-mode: exclusion;
+    /* mix-blend-mode: exclusion; */
     
 }
 .circle-2{
     left: 337px;
     top: 734px;
-    mix-blend-mode: lighten;
+    /* mix-blend-mode: lighten; */
 }
 

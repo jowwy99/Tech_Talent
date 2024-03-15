@@ -1,0 +1,214 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+/* CSS General */
+header {
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(65, 64, 64);
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#spotify-logo {
+    width: 190px;
+    ruby-merge: 125px;
+}
+
+.container-1 {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/landing.jpg);
+}
+
+section h1 {
+    font-size: 4rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    text-align: center;
+    display: block;
+}
+
+.primer-parrafo {
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.container-2 {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.div-1 {
+    display: inline-block;
+    width: 30vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    flex-grow: 1;
+}
+
+h3 {
+    color: #00b172;
+}
+
+h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.logos-2 {
+    width: 100px;
+}
+
+.fondoverde{
+    background-color: #00b172;
+    color: white;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.last-title{
+    text-decoration: underline;
+}
+
+.container-3{
+
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%; 
+    
+
+
+    /*display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 50px;
+    column-gap: 150px;*/
+}
+
+.div-2{
+    width: 30vh;
+    flex-grow: 1;
+}
+
+
+
+
+.logos-3-1{
+    width: 100px;
+    
+}
+
+.logos-3-2{
+    width: 200px;
+    
+}
+
+
+
+
+/* Mobile */
+@media (width < 320px) {
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav a {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .container-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-3{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .logos-3-1{
+        width: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+}
+
+/* Tablet */
+@media (320px < width < 740px) {
+    #spotify-logo {
+        margin-bottom: 9px;
+    }
+
+    header {
+        text-align: center;
+        display: block;
+    }
+
+    nav {
+        display: block;
+    }
+  
+    .logos-3-1{
+        width: 100px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin: 40px;
+       
+    }
+    .logos-3-2{
+        width: 300px;
+        
+        opacity: 0; /* Opacidad 0 cuando se elimina */
+        transition: opacity 0.5s ease;
+
+    }
+    
+    }
+
+
+/* Desktop */
+@media (width >=740px) {
+    .logos-3-2{
+        width: 300px;
+}
+.container-3{
+    justify-content: space-evenly;}
+}
