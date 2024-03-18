@@ -117,7 +117,7 @@ h2 {
 
 .div-2{
     width: 30vh;
-    flex-grow: 1;
+   
 }
 
 
@@ -132,9 +132,6 @@ h2 {
     width: 200px;
     
 }
-
-
-
 
 /* Mobile */
 @media (width < 320px) {
@@ -202,7 +199,6 @@ h2 {
     }
     
     }
-
 
 /* Desktop */
 @media (width >=740px) {
