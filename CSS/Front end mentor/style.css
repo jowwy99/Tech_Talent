@@ -1,0 +1,117 @@
+body{
+    /*font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;*/
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 70;
+    font-style: normal;
+    font-size: 15px;
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;}
+
+.container{
+  display: flex;
+  color: white;
+}
+
+
+.container-padre{
+  width: 80%;}
+
+  .boton-naranja {
+    background-color: white;
+    border: none;
+    color: hsl(31, 77%, 52%);
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+  .boton-naranja:hover {
+    background-color:hsl(31, 77%, 52%);
+    color: white;
+    border: solid white; 
+  }
+
+  .boton-azul {
+    background-color: white;
+    border: none;
+    color: hsl(184, 100%, 22%);
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+  .boton-azul:hover {
+    background-color:hsl(184, 100%, 22%);
+    color: white;
+    border: solid white; 
+  }
+
+  .boton-verde {
+    background-color: white;
+    border: none;
+    color: hsl(179, 100%, 13%);
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    
+    
+}
+  .boton-verde:hover {
+    background-color:hsl(179, 100%, 13%);
+    color: white;
+    border: solid white; 
+  }
+
+
+
+.sedans, .suvs, .luxury{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+
+
+.sedans{
+background-color: hsl(31, 77%, 52%);
+padding: 50px;
+}
+
+.suvs{
+background-color: hsl(184, 100%, 22%);
+padding: 50px;
+}
+
+.luxury{
+background-color: hsl(179, 100%, 13%); 
+padding: 50px;
+height: 400px;
+
+}
+
